@@ -14,6 +14,7 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
+        
         <a href="Semester1.html">Semester 1</a>
         <a href="Semester2.html">Semester 2</a>
         <a href="Semester3.html">Semester 3</a>
@@ -27,15 +28,125 @@
         <a href="CEO.HTML">CEO and Founder</a>
         <a href="internship.html">Internship </a>
     </nav>
+    <div class="dropdown">
+      <button class="dropbtn">Galgotias Question Bank & Solutions</button>
+      <div class="dropdown-content">
+      <a href="Mathematics.html">Mathematics</a>
+      <a href="Semiconductor.html">Semi conductor</a>
+      <a href="Graphics.html">Graphics</a>
+      <a href="Biology.html">Biology</a>
+      <a href="ai.html">AI ML</a>
+      <a href="Cyber.html">Cyber Security</a>
+      <a href="Data.html">Data Science</a>
+
+      </div>
+    </div> <style>
+      .dropbtn {
+        background-color: rgb(52, 47, 69);;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #a80000}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+      </style>
+    
     <main>
         <div style="text-align: center;">
             <!-- <img src="header.png" alt="header images"  style="float:right;"> -->
         <h1>Contact US
             </h1>
-
+    </main>
+     
+            
     
 
+            <form action="" style="text-align: center;">
+                <label id="firstname" for="First Name"><b>First name</b></label> 
+                <br>
+                <input type="text" name="firstname" id="firstname" required>
+                <br>
+                <br>
+                <label id="Second " for="Second Name"><b>Second Name</b></label> 
+                <br>
+                <input type="text" name="secondname" id="secondname" required>
+                <br>
+                <br>
+                <label id="Phone" for="phone"><b>Phone</b></label> 
+                <br>
+                <input type="number" name="phone" id="phone" required>
+                <br>
+                <br>
+                <label id="email" for="email"><b>Email</b></label> 
+                <br>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <br>
+                <label id="des" for="des"><b>Description</b></label> 
+                <br>
+               <textarea name="des" id="des" cols="40" rows="10"></textarea>
+               <br>
+               <input type="submit" value="sumbit">
+                
+                <input type="reset" value="reset">
+    
+            </form>
+       
+        <br>
+        <br>
+        <hr>
 
-    </main>
+    <div style="text-align: center;">
+        <h1 >Connect With Us</h1>
+        <a href="https://www.linkedin.com/in/rajeevkumarfullstack"><img src="linkedin.png" alt="linkedin" height="60px" width="60px"></a>
+        
+        <a href="https://mobile.twitter.com/rajeevkrsingh32"><img src="twitter.png" alt="twitter" height="60px" width="60px"></a>
+    </div>
+
+<br>
+<br>
+<br><br>
+<br>
+<!-- <footer></footer> -->
+<hr>
+    <footer style="text-align: center;">
+        <h4>
+            <b>
+                @Higher Engineering Solutions
+            </b>
+        </h4>
+
+    </footer>
 </body>
 </html>
