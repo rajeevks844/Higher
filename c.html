@@ -3,15 +3,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="HTML, Python, CSS, SQL, JavaScript, How to, PHP, Java, C, C++, C#, jQuery, Bootstrap, Colors, W3.CSS, XML, MySQL, Icons, NodeJS, React, Graphics, Angular, R, AI, Git, Data Science, Code Game, Tutorials, Programming, Web Development, Training, Learning, Quiz, Exercises, Courses, Lessons, References, Examples, Learn to code, Source code, Demos, Tips, Website">
+<meta name="Description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.">
+
     <title fa>Higher Engineering soltion | Home</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <meta name="description" content="Video answers with step-by-step explanations by expert educators for all Higher Engineering Mathematics">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+  
   <!-- nav bar  -->
 
 
@@ -152,20 +159,158 @@
 
 
 
-    <main>
+    <main style="font-size: 105%;">
         <div style="text-align: center;">
             <!-- <img src="header.png" alt="header images"  style="float:right;"> -->
-        <h1>C language 
+        <h1>C Introduction
+
             </h1>
 
+            <hr>
+          </main>
+
+<!-- c started whats is c  -->
+          <div class="container-fluid">
+            <p>
+
+          <h2>  What is C? </h2>
+C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.
+<br>
+<br>
+
+It is a very popular language, despite being old.
+<br>
+<br>
+C is strongly associated with UNIX, as it was developed to write the UNIX operating system.
+</p>
+
+
+
+<h2>Why Learn C?</h2>
+<ul> 
+<li>It is one of the most popular programming language in the world</li>
+<li>If you know C, you will have no problem learning other popular programming languages such as Java, Python, C++, C#, etc, as the syntax is similar
+</li>
+<li>C is very fast, compared to other programming languages, like Java and Python
+</li>
+<li>C is very versatile; it can be used in both applications and technologies</li>
+
+</ul>
+<hr>
+
+<h2>Difference between C and C++</h2>
+<ul>
+
+  <li>C++ was developed as an extension of C, and both languages have almost the same syntax</li>
+  <li>The main difference between C and C++ is that C++ support classes and objects, while C does not</li>
+  
+</ul>
+
+<br><br>
+
+<h1 style="text-align: center;">C Get Started
+</h1>
+<hr>
+<br>
+<h2 >Get Started With C
+  </h2>
+
+  <p>To start using C, you need two things: </p>
+  <ul>
+    <li>A text editor, like Notepad, to write C code</li>
+    <li>A compiler, like GCC, to translate the C code into a language that the computer will understand</li>
+  </ul>
+  There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).
+  <hr>
+
+  <h2 >C Install IDE</h2>
+  <p>
+  An IDE (Integrated Development Environment) is used to edit AND compile the code.
+  <br>
+  <br>
+
+Popular IDE's include Code::Blocks, Eclipse, and Visual Studio. These are all free, and they can be used to both edit and debug C code.
+<br><br>
+<b> Note </b> Web-based IDE's can work as well, but functionality is limited.
+<br><br>
+
+We will use <b> Code::Blocks </b> in our tutorial, which we believe is a good place to start.
+<br><br>
+
+You can find the latest version of Codeblocks at <a href="http://www.codeblocks.org/"> http://www.codeblocks.org/.</a> Download the mingw-setup.exe file, which will install the text editor with a compiler.
+</p>
+<hr>
+
+<h1> C Quickstart</h1>
+<br>
+<p>
+Let's create our first C file.
+<br>
+<br>
+
+Open Codeblocks and go to <b> File > New > Empty File. </b>
+<br><br>
+
+Write the following C code and save the file as  myfirstprogram.c <b> (File > Save File as): </b>
+<br><br>
+
+</p>
+
+<h4>myfirstprogram.c</h4>
+<div class="code" style="col">
+
+  #include &lt;stdio.h&gt;
+  <br>
+  <span style="color:green;"> int main() { </span><br>&nbsp; printf( <span style="color: green;">&quot; Hello World!&quot;</span>);<br>&nbsp; 
+  <span style="color: green;">return 0;</span><br>}
+</div>
+
+<p>Don't worry if you don't understand the code above - we will discuss it in detail in later chapters. For now, focus on how to run the code.</p>
+
+<p>In Codeblocks, it should look like this:</p>
+<img src="codeblocks2020.png" style="width:100%;max-width:800px" >
+<br>
+<p>Then, go to <strong>Build &gt; Build and Run</strong> to run (execute) the program. The result will look something to this:</p>
+<br>
+<div class="code">
+
+  Hello World!<br>Process returned 0 (0x0) execution time : 0.011 s<br>Press any 
+  key to continue.
+</div>
+<hr>
+<h1>Learning C At Higher Engineering</h1>
+<p>When learning C at higherengineering.in, you can use our "Try it Yourself" tool, which shows both the code and the result. This will make it easier for you to understand every part as we move forward:</p>
+<div class="code" >
+  <h3>myfirstprogram.c</h3>
+  <br>
+  <h5>Code:</h5>
+
+  #include &lt;stdio.h&gt;
+  <br>
+  <span style="color:green;"> int main() { </span><br>&nbsp; printf( <span style="color: green;">&quot; Hello World!&quot;</span>);<br>&nbsp; 
+  <span style="color: green;">return 0;</span><br>}
+</div>
+
+
+</div> 
     
-
-
-    </main>
     <br>
 <br>
-<br><br>
-<br>
+<!-- page  -->
+<div class="container">
+                   
+  <ul class="pager">
+    <li class="previous"><a href="#">Previous</a></li>
+    <ul class="pagination">
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+</ul>
+    <li class="next"><a href="#">Next</a></li>
+  </ul>
+</div>
 <!-- <footer></footer> -->
 <!-- <footer></footer> -->
 
