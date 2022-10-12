@@ -274,3 +274,16 @@ header {
   
 }
 
+
+.code2{
+  color: white;
+  background-color: white;
+  width: 100%;
+  border: 30px solid rgb(83, 80, 80);
+  padding: 50px;
+  margin: 20px;
+  max-width: 600; 
+
+  
+}
+
