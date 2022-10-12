@@ -218,7 +218,6 @@
        <h3>Example</h3>
        <div class="w3-code notranslate javaHigh"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  printf(<span class="javastringcolor" style="color:brown">"Hello World!"</span>); </span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_printf">Try it Yourself »</a>
        </div>
        
        <p>In many other programming languages (like <a href="/python/default.asp">Python</a>, <a href="/java/default.asp">Java</a>, and <a href="/cpp/default.asp">C++</a>), you would normally use a 
@@ -228,7 +227,6 @@
        <h3>Example</h3>
        <div class="w3-code notranslate javaHigh w3-border-red"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  <span class="javakeywordcolor" style="color:mediumblue">int</span> myNum = <span class="javanumbercolor" style="color:red">15</span>;<br>printf(myNum);&nbsp; <span class="commentcolor" style="color:green">// Nothing happens </span></span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_printf_err">Try it Yourself »</a>
        </div>
        
        <p>To output variables in C, you must get familiar with something called "format specifiers".</p>
@@ -251,7 +249,6 @@
        <h3>Example</h3>
        <div class="w3-code notranslate javaHigh"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  <span class="javakeywordcolor" style="color:mediumblue">int</span> myNum = <span class="javanumbercolor" style="color:red">15</span>;<br>printf(<span class="javastringcolor" style="color:brown">"%d"</span>, myNum);&nbsp; <span class="commentcolor" style="color:green">// Outputs 15 </span></span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_printf_int">Try it Yourself »</a>
        </div>
        
        <p>To print other types, use <code class="w3-codespan">%c</code> for <code class="w3-codespan">char</code> and <code class="w3-codespan">%f</code> for <code class="w3-codespan">float</code>:</p>
@@ -262,7 +259,6 @@
        </span>  myFloatNum = <span class="javanumbercolor" style="color:red">5.99</span>;&nbsp;&nbsp; <span class="commentcolor" style="color:green">// Floating point number<br></span><span class="javakeywordcolor" style="color:mediumblue">char</span> myLetter = <span class="javastringcolor" style="color:brown">'D'</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="commentcolor" style="color:green">// 
          Character<br></span><br><span class="commentcolor" style="color:green">// Print variables<br></span>printf(<span class="javastringcolor" style="color:brown">"%d\n"</span>, myNum);<br><span class="javanumbercolor" style="color:red">
        </span>  printf(<span class="javastringcolor" style="color:brown">"%f\n"</span>, myFloatNum);<br>printf(<span class="javastringcolor" style="color:brown">"%c\n"</span>, myLetter); </span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_data_types">Try it Yourself »</a>
        </div>
        
        <p>To combine both text and a variable, separate them with a comma inside the <code class="w3-codespan">
@@ -271,7 +267,6 @@
        <h3>Example</h3>
        <div class="w3-code notranslate javaHigh"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  <span class="javakeywordcolor" style="color:mediumblue">int</span> myNum = <span class="javanumbercolor" style="color:red">5</span>;<br>printf(<span class="javastringcolor" style="color:brown">"My favorite number is: %d"</span>, myNum); </span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_combine">Try it Yourself »</a>
        </div>
        
        
@@ -282,7 +277,6 @@
        <div class="w3-code notranslate javaHigh"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  <span class="javakeywordcolor" style="color:mediumblue">int</span> myNum = <span class="javanumbercolor" style="color:red">5</span>;<br><span class="javakeywordcolor" style="color:mediumblue">char</span> myLetter = <span class="javastringcolor" style="color:brown">'D'</span>;<br>printf(<span class="javastringcolor" style="color:brown">"My number is %d and my 
          letter is %c"</span>, myNum, myLetter); </span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_data_types2">Try it Yourself »</a>
        </div>
        
        <div class="w3-note w3-panel">
@@ -295,11 +289,10 @@
        <p>To add a variable to another variable, you can use the <code class="w3-codespan">+</code> 
        operator:</p>
        
-       <div class="w3-example">
+       <div class="code2">
        <h3>Example</h3>
        <div class="w3-code notranslate javaHigh"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  <span class="javakeywordcolor" style="color:mediumblue">int</span> x = <span class="javanumbercolor" style="color:red">5</span>;<br><span class="javakeywordcolor" style="color:mediumblue">int</span> y = <span class="javanumbercolor" style="color:red">6</span>;<br><span class="javakeywordcolor" style="color:mediumblue">int</span> sum = x + y;<br>printf(<span class="javastringcolor" style="color:brown">"%d"</span>, sum); </span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_add">Try it Yourself »</a>
        </div>
        <hr>
        
@@ -307,11 +300,10 @@
        
        <p>To declare more than one variable of the same type, use a <strong>comma-separated</strong> list:</p>
        
-       <div class="w3-example">
+       <div class="code2">
        <h3>Example</h3>
-       <div class="w3-code notranslate javaHigh"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
+       <div><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  <span class="javakeywordcolor" style="color:mediumblue">int</span> x = <span class="javanumbercolor" style="color:red">5</span>, y = <span class="javanumbercolor" style="color:red">6</span>, z = <span class="javanumbercolor" style="color:red">50</span>;<br>printf(<span class="javastringcolor" style="color:brown">"%d"</span>, x + y + z); </span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_multiple">Try it Yourself »</a>
        </div>
        
        <p>You can also assign the <strong>same value</strong> to multiple variables of the same type:</p>
@@ -320,7 +312,6 @@
        <h3>Example</h3>
        <div class="w3-code notranslate javaHigh"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  <span class="javakeywordcolor" style="color:mediumblue">int</span> x, y, z;<br>x = y = z = <span class="javanumbercolor" style="color:red">50</span>;<br>printf(<span class="javastringcolor" style="color:brown">"%d"</span>, x + y + z); </span></div>
-       <a target="_blank" class="w3-btn w3-margin-bottom" href="tryc.php?filename=demo_variables_multiple2">Try it Yourself »</a>
        </div>
        
        <hr>
@@ -334,7 +325,7 @@
        <p>Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).</p>
        <p><strong>Note:</strong> It is recommended to use descriptive names in order to 
        create understandable and maintainable code:</p>
-       <div class="w3-example">
+       <div class="code2">
        <h3>Example</h3>
        <div class="w3-code notranslate javaHigh"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
        </span>  <span class="commentcolor" style="color:green">// Good<br></span><span class="javakeywordcolor" style="color:mediumblue">int</span> minutesPerHour = <span class="javanumbercolor" style="color:red">60</span>;<br><br><span class="commentcolor" style="color:green">// OK, but not so easy to 
@@ -351,25 +342,7 @@
          <li>Reserved words (such as <code class="w3-codespan">int</code>) cannot be used as names</li>
        </ul>
        
-       <hr>
-       <div class="code2">
-       <h2>C Exercises</h2>
-       <form autocomplete="off" spellcheck="false" id="w3-exerciseform" action="exercise.php?filename=exercise_variables1" method="post" target="_blank">
-       <h2>Test Yourself With Exercises</h2>
-       <div class="exercisewindow">
-       <h2>Exercise:</h2>
-       <p>Create a variable named <code class="w3-codespan">myNum</code> and assign the value <code class="w3-codespan">50</code> to it.</p>
-       <div class="exerciseprecontainer">
-       <pre style="overflow: auto;"><input name="ex1" maxlength="3" style="width: 35px;"> <input name="ex2" maxlength="5" style="width: 55px;"> = <input name="ex3" maxlength="2" style="width: 25px;">;
-       </pre>
-       </div>
-       <br>
-       <button type="submit" class="w3-btn w3-margin-bottom">Submit Answer »</button>
-       <p><a target="_blank" href="exercise.php?filename=exercise_variables1">Start the Exercise</a></p>
-       </div>
-       </form>
-       </div>
-       <hr>
+     
        
     </main>
   
@@ -380,7 +353,7 @@
     <ul class="pagination">
       <li class="page-item"><a class="page-link" href="c3.html">Previous</a></li>
       <li class="page-item"><a class="page-link" href="c4.html">4</a></li>
-      <li class="page-item"><a class="page-link" href="c5.html">5</a></li>
+      <li class="page-item"><a class="page-link" href="c_variables.html">5</a></li>
       <li class="page-item"><a class="page-link" href="c6.html">6</a></li>
       <li class="page-item"><a class="page-link" href="c7.html">Next</a></li>
     </ul>
